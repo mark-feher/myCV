@@ -3,7 +3,7 @@
 # Solution
 - You can run this application by running a docker image markfeher/mycv:1.0 like so:
 ```
-$ docker run -e PORT=<PORT> -p <PORT>:<PORT> markfeher/mycv:1.0
+docker run -e PORT=<PORT> -p <PORT>:<PORT> markfeher/mycv:1.0
 ```
 > [!NOTE]
 > You can choose what port will the Flask application inside the container listen on by specifying the PORT environment variable.
