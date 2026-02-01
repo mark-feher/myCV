@@ -17,3 +17,6 @@ docker run -e PORT=8080 -p 8080:8080 markfeher/mycv:1.0
 > This containerized web CV was made with https://themes.3rdwavemedia.com/demo/bs5/risen/ bootstrap template.
 
 The Docker build and push was automated by a Github Actions [workflow](https://github.com/mark-feher/myCV/blob/master/.github/workflows/docker-image.yml)
+
+> [!NOTE]
+> Testing whether workflow ignores README.md updates.
