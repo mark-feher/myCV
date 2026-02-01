@@ -31,4 +31,4 @@ jobs:
           push: true
           tags: |
             markfeher/mycv:latest
-            markfeher/mycvp:${{ github.sha }}
+            markfeher/mycv:${{ github.sha }}
