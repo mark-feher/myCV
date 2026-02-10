@@ -37,7 +37,7 @@ jobs:
           
           if [[ "$GITHUB_REF" == refs/tags/* ]]; then
             # Strip the "v" prefix from tag
-            FULL="${GITHUB_REF#refs/tags/v}"   # e.g., 2.0.0
+            FULL="${GITHUB_REF#refs/tags/}"   # e.g., 2.0.0
             MAJOR="${FULL%%.*}"               # 2
             MINOR="${FULL%.*}"                # 2.0
             LATEST_TAG=false
