@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycv-deployment
+  namespace: mfeher2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mycv
+  template:
+    metadata:
+      labels:
+        app: mycv
+    spec:
+      containers:
+      - name: mycv-container
+        image: markfeher/mycv:latest   # CHANGE THIS
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080"
+

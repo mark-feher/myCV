@@ -20,3 +20,13 @@ The Docker build and push was automated by a Github Actions [workflow](https://g
 
 > [!NOTE]
 > Testing whether workflow ignores README.md updates.
+
+# Task 3
+
+You will create a dedicated Kubernetes namespace, deploy the myCV application with three replicas, expose it via a NodePort service, and verify that the web application is reachable.
+
+# Solution
+![cluster_create.png]()
+![create_namespace.png]()
+![deployment.png]()
+![mycv.png]()
