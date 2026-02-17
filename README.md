@@ -26,7 +26,7 @@ The Docker build and push was automated by a Github Actions [workflow](https://g
 You will create a dedicated Kubernetes namespace, deploy the myCV application with three replicas, expose it via a NodePort service, and verify that the web application is reachable.
 
 # Solution
-![cluster_create.png]()
-![create_namespace.png]()
-![deployment.png]()
-![mycv.png]()
+![cluster_create.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/cluster_create.png)
+![create_namespace.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/create_namespace.png)
+![deployment.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/deployment.png)
+![mycv.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/service.png)
