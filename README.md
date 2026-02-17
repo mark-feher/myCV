@@ -29,4 +29,4 @@ You will create a dedicated Kubernetes namespace, deploy the myCV application wi
 ![cluster_create.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/cluster_create.png)
 ![create_namespace.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/create_namespace.png)
 ![deployment.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/deployment.png)
-![mycv.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/service.png)
+![mycv.png](https://raw.githubusercontent.com/mark-feher/myCV/refs/heads/master/mycv.png)
